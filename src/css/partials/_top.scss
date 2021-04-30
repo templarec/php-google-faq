@@ -1,0 +1,23 @@
+.top {
+  font-family: $sec_font;
+  @include flex(row, space-between, center);
+  width: 100vw;
+  padding: 15px;
+  img:first-child {
+    margin-right: 4px;
+  }
+  #privacy {
+    color: #5f6368;
+    font-size: 22px;
+  }
+  #menu-icon {
+    color: $txt-menu;
+    margin-left: auto;
+    font-size: 20px;
+  }
+  #profile {
+    width: 50px;
+    padding: 0 10px;
+  }
+
+}

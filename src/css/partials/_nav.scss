@@ -1,0 +1,25 @@
+nav {
+  margin: 10px 0;
+
+  @include flex(row, flex-start, center);
+  ul {
+    @include flex(row, flex-start, center);
+    li {
+      font-family: $prim_font;
+      padding: 0 15px;
+      list-style: none;
+      color: $txt-menu;
+      padding-bottom: 5px;
+    }
+    li:last-child {
+      color: $menu-active;
+      border-bottom: 3px solid $menu-active;
+    }
+  }
+  border-bottom: 1px solid #CBCBCB;
+}
+/* hr {
+   width: 100vw;
+   border: 0.5px solid $txt-menu;
+  }*/
+

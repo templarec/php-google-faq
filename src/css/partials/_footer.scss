@@ -1,0 +1,35 @@
+footer {
+  @include flex(row, center, center);
+  background-color: #F5F5F5;
+  padding: 10px 15px;
+  .container {
+    @include flex(row, space-between, center);
+    ul {
+      @include flex(row, center, center);
+      li {
+        font-size: 11px;
+        font-family: $sec-font;
+        color: #3d3d3d;
+        list-style: none;
+
+        select {
+          width: 174px;
+        }
+      }
+    }#left li:not(:first-child):before {
+       content: "\0000b7";
+       padding: 0 5px;
+     }
+
+    #right {
+      margin-left: auto;
+      li:last-child {
+        padding-left: 7px;
+      }
+      i {
+        font-size: 18px;
+      }
+    }
+  }
+
+}
