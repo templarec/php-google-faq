@@ -87,7 +87,6 @@
                         <option value="Inglese">Inglese</option>
                     </select></li>
             </ul>
-
         </div>
     </footer>
 </body>
