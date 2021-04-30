@@ -24,7 +24,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
   padding: 15px;
 }
 .top img:first-child {
@@ -153,4 +152,3 @@ footer .container #right li:last-child {
 footer .container #right i {
   font-size: 18px;
 }
-

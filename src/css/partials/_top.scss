@@ -1,7 +1,6 @@
 .top {
   font-family: $sec_font;
   @include flex(row, space-between, center);
-  width: 100vw;
   padding: 15px;
   img:first-child {
     margin-right: 4px;
